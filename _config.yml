@@ -1,5 +1,5 @@
 ---
-title: Your awesome title
+title: 탱커펀드 블로그
 timezone: UTC
 collections:
   posts:
@@ -8,14 +8,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
+email: ask@tanker.fund
+description: '탱커펀드는 금융의 최고 전문가와 젊은 IT 전문인력이 만난 진정한 핀테크 플랫폼입니다.'
 baseurl: ''
-url: http://yourdomain.com
+url: https://tankerfund.github.io/
 twitter_username: jekyllrb
-github_username: jekyll
+github_username: tankerfund
 markdown: kramdown
