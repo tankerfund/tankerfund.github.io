@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 email: ask@tanker.fund
-description: '탱커펀드는 금융의 최고 전문가와 젊은 IT 전문인력이 만난 진정한 핀테크 플랫폼입니다.'
+description: 탱커펀드는 금융의 최고 전문가와 젊은 IT 전문인력이 만난 진정한 핀테크 플랫폼입니다.
 baseurl: ''
 url: https://tankerfund.github.io/
 twitter_username: jekyllrb
