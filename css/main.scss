@@ -3,18 +3,7 @@
 
 @charset "utf-8";
 
-@font-face {
-  font-family: 'YoonGothic';
-  src: url('/static/YoonGothicPro730.woff') format('woff');
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'YoonGothic';
-  src: url('/static/YoonGothicPro750.woff') format('woff');
-  font-weight: 700;
-}
-
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
 // Our variables
