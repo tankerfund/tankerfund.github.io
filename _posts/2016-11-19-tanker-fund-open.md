@@ -1,10 +1,10 @@
 ---
 title: 탱커펀드 기술 블로그 오픈
+date: 2016-11-19 03:58:54 Z
 author: 전석준
 author-email: edoli.mia@gmail.com
 layout: post
 description: 핀테크 서비스 탱커펀드의 기술 블로그를 오픈합니다.
-date: '2016-11-19 03:58:54'
 ---
 
 이 블로그는 탱커펀드를 개발하면서 배우거나 발견한 팁들을 정리하여 공개하는 공간입니다.
