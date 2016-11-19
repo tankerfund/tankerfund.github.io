@@ -3,10 +3,21 @@
 
 @charset "utf-8";
 
+@font-face {
+  font-family: 'YoonGothic';
+  src: url('/static/YoonGothicPro730.woff') format('woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'YoonGothic';
+  src: url('/static/YoonGothicPro750.woff') format('woff');
+  font-weight: 700;
+}
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Noto Sans KR', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -15,6 +26,8 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #333;
+$text-gray-color:       #484848;
+$text-light-color:       #888;
 $background-color: #fdfdfd;
 $brand-color:      #004ea9;
 

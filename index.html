@@ -4,19 +4,30 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="home-visual">
+    <img class="home-symbol" src="/static/symbol.png" />
 
-          <h2>
-            {{ post.title }}
-          </h2>
-          <p>{{ post.description }}</p>
-        </li>
-      </a>
-    {% endfor %}
-  </ul>
+  </div>
+
+  <div class="wrapper">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <li>
+            <div class="post-li-main">
+              <div class="post-li-meta">{{ post.date | date: "%Y년 %m월 %d일" }}</div>
+              <div class="post-li-title">{{ post.title }}</div>
+              <div class="post-li-description">{{ post.description }}</div>
+            </div>
+
+            <div class="post-li-profile">
+              <div class="post-li-profile-img"><img src="/static/profile/{{ post['author-email'] }}.png" /></div>
+                <div class="post-li-profile-name">{{ post.author }}</div>
+            </div>
+          </li>
+        </a>
+      {% endfor %}
+    </ul>
+  </div>
 
 </div>
