@@ -1,6 +1,8 @@
 ---
 title: Some Title2
 date: 2016-11-18 16:10:00 Z
+author: 전석준
+author-email: edoli.mia@gmail.com
 layout: post
 description: 뭔가 고대의 유물
 ---

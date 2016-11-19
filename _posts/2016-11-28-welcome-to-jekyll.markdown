@@ -1,6 +1,8 @@
 ---
 title: Welcome to Jekyll2!
 date: 2016-11-28 15:53:18 Z
+author: 전석준
+author-email: edoli.mia@gmail.com
 categories:
 - jekyll
 - update

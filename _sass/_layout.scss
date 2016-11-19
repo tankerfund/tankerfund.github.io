@@ -20,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $brand-color;
     }
 }
 
@@ -103,8 +103,16 @@
 }
 
 .footer-heading {
-    font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+
+    > .footer-title {
+          font-size: 18px;
+          display: inline-block;
+    }
+
+    > .rss-subscribe {
+      float: right;
+    }
 }
 
 .contact-list,
@@ -168,6 +176,7 @@
  * Page content
  */
 .page-content {
+    background-color: #f4f4f4;
     padding: $spacing-unit 0;
 }
 
@@ -179,8 +188,23 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
+    > a {
+        color: #333;
+        > li {
+          background-color: #ffffff;
+          padding: 16px;
+          margin-bottom: 24px;
+          border: 1px solid $grey-color-light;
+          transition: border 0.15s ease-in-out;
+
+          &:hover {
+            border: 1px solid $brand-color;
+          }
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
     }
 }
 
@@ -190,8 +214,6 @@
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
 }
 
 

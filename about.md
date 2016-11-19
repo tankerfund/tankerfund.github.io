@@ -1,5 +1,5 @@
 ---
-title: About
+title: 회사정보
 permalink: "/about/"
 layout: page
 ---
