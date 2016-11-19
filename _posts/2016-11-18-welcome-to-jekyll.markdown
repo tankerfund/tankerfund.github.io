@@ -1,11 +1,11 @@
 ---
 title: Welcome to Jekyll!
 date: 2016-11-18 15:53:18 Z
-author: 전석준
-author-email: edoli.mia@gmail.com
 categories:
 - jekyll
 - update
+author: 전석준
+author-email: edoli.mia@gmail.com
 layout: post
 ---
 
